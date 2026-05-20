@@ -35,7 +35,6 @@ while True:
             dicionario["professores"].append(input("Seja bem vindo qual será o novo professor?"))
             #novamente transformando o ultimo valor criado em uma lista
             dicionario["professores"][-1] = [dicionario["professores"][-1]]
-            #parte abaixo esta em construção ainda
             while True:
                 print (dicionario["cursos"])
                 cursoesc = (input("insira curso que ele vai lecionar"))
